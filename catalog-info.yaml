@@ -8,3 +8,11 @@ spec:
   type: service
   owner: user:guest
   lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: tutorial
+  description: This is sample system
+spec:
+  owner: naruse

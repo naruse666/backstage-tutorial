@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: tutorial-db
+  description: dummy db
+spec:
+  type: database
+  owner: naruse
+  system: tutorial
