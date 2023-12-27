@@ -9,7 +9,7 @@ spec:
   owner: user:guest
   lifecycle: experimental
   dependsOn: 
-    - resource:default/tutorial-db
+    - resource: tutorial-db
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
