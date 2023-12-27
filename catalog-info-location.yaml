@@ -5,5 +5,5 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/naruse666/backstage-tutorial/blob/master/catalog-info.yaml
+    - https://github.com/naruse666/backstage-tutorial/blob/master/catalogs/catalog-info.yaml
     - https://github.com/naruse666/backstage-tutorial/blob/master/catalogs/resources.yaml
