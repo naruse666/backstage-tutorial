@@ -6,7 +6,7 @@ metadata:
 spec:
   type: graphql-federated-service
   lifecycle: experimental
-  owner: naruse
+  owner: team1
   system: tutorial
   definition:
     $text: ./tutorial.graphql
