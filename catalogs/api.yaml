@@ -9,4 +9,4 @@ spec:
   owner: naruse
   system: tutorial
   definition:
-    file: ./tutorial.graphql
+    $text: ./tutorial.graphql
