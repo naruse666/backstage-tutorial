@@ -5,5 +5,5 @@ metadata:
   description: dummy db
 spec:
   type: database
-  owner: curon-unit 
+  owner: naruse
   system: tutorial

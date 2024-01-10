@@ -6,7 +6,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: user:guest
+  owner: naruse
   lifecycle: experimental
   dependsOn: 
     - resource: tutorial-db
