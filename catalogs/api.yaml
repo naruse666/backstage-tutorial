@@ -3,10 +3,10 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: tutorial-graphql-api
-  annotations:
-    backstage.io/graphql-schema-source: https://github.com/naruse666/backstage-tutorial/blob/master/catalogs/
 spec:
   type: graphql-federated-service
   lifecycle: experimental
   owner: naruse
   system: tutorial
+  definition:
+    $text: ./tutorial.graphql
