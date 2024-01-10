@@ -9,7 +9,9 @@ spec:
   owner: naruse
   lifecycle: experimental
   dependsOn: 
-    - resource: tutorial-db
+  - resource:default/tutorial-db
+  providesApis:
+  - tutorial-graphql-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
