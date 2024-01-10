@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "tutorial"
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:../docs/tutorial
 spec:
   type: service
   owner: team1
