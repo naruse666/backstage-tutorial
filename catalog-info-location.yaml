@@ -7,3 +7,4 @@ spec:
   targets:
     - https://github.com/naruse666/backstage-tutorial/blob/master/catalogs/catalog-info.yaml
     - https://github.com/naruse666/backstage-tutorial/blob/master/catalogs/resources.yaml
+    - https://github.com/naruse666/backstage-tutorial/blob/master/catalogs/api.yaml
