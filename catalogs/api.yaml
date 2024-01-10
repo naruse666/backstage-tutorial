@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tutorial-graphql-api
+spec:
+  type: graphql
+  lifecycle: experimental
+  owner: naruse
+  system: tutorial
+  definition:
+    $text: ./tutorial.graphql
