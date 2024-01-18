@@ -4,9 +4,10 @@ metadata:
   name: "tutorial"
   annotations:
     backstage.io/techdocs-ref: dir:../docs/tutorial
+    github.com/project-slug: naruse666/backstage-tutorial
 spec:
   type: service
-  owner: team1
+  owner: user:guest
   lifecycle: experimental
   dependsOn: 
   - resource:default/tutorial-db
@@ -19,4 +20,4 @@ metadata:
   name: tutorial
   description: This is sample system
 spec:
-  owner: naruse
+  owner: user:guest
