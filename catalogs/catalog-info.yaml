@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "tutorial"
   annotations:
-    backstage.io/techdocs-ref: dir:../docs/tutorial
+    backstage.io/techdocs-ref: url:https://github.com/naruse666/backstage-tutorial/tree/master/docs/tutorial/
     github.com/project-slug: naruse666/backstage-tutorial
 spec:
   type: service
